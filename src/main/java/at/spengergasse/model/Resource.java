@@ -9,7 +9,7 @@ public abstract class Resource {
 	@GeneratedValue(strategy= GenerationType.AUTO)
 
 	@Column(name="RES_ID")
-	private Long id; 
+	private String id;
 	
 	@Embedded
 	private Meta meta = new Meta();
@@ -21,7 +21,7 @@ public abstract class Resource {
 	public String getId() {
 		return id;
 	}
-	public void setId(Long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 	public String getLanguage() {

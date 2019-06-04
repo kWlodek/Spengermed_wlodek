@@ -1,7 +1,6 @@
 package at.spengergasse.Controller;
 
 import at.spengergasse.repositories.IEncounterRepository;
-import at.spengergasse.repositories.IEncounterRepository;
 import at.spengergasse.model.Encounter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
